@@ -1,5 +1,6 @@
 /* Copyright Dimitar Bonev / 2011 / 2012
  *
+ * The main starting point of the app.
  *
  */
 
@@ -201,10 +202,6 @@ public class MainTTS extends Activity implements OnInitListener {
 	public void onInit(int status) {
 		mTts.setLanguage(Locale.US);
 		this.canPlay = true;		
-//		String myText1 = "Did you sleep well?";
-//		String myText2 = "I hope so, because it's time to wake up.";
-//		mTts.speak(myText1, TextToSpeech.QUEUE_FLUSH, null);
-//		mTts.speak(myText2, TextToSpeech.QUEUE_ADD, null);
 	}
 
 
