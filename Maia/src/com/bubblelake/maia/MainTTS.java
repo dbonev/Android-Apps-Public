@@ -1,3 +1,9 @@
+/* Copyright Dimitar Bonev / 2011 / 2012
+ *
+ *
+ */
+
+
 package com.bubblelake.maia;
 
 import java.io.IOException;
