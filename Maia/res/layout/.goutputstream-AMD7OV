@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+<TextView 
+ 	android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/nameText"/>
+
+<Button 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/sayIt"
+	android:id="@+id/playButton"/>
+	
+<Button 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/add"
+	android:id="@+id/addButton"/>
+	
+<TableLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+<TableRow>
+	<Button
+		android:text="@string/ok"
+		android:id="@+id/okButton">
+    </Button>
+    <Button
+		android:text="@string/cancel"
+		android:id="@+id/cancelButton">
+    </Button>
+		
+</TableRow>		
+</TableLayout> 
+
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+<ScrollView 
+ 	android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:fillViewport="true"
+    android:id="@+id/scroll"
+ >   
+ 
+ <ListView 
+ 	android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/workPanel"
+ >
+ </ListView>
+ </ScrollView>  
+
+ </LinearLayout>
+</LinearLayout>

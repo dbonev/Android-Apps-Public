@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.bubblelake.maia"
+      android:versionCode="12"
+      android:versionName="2.0.1"
+      android:installLocation="preferExternal">
+      <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+	<uses-permission android:name="android.permission.READ_CALENDAR"></uses-permission>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <application android:icon="@drawable/maia" android:label="@string/app_name" android:debuggable="true">
+        <activity android:name=".MainTTS"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		 <activity android:name=".GreetingViewActivity"
+                  android:label="@string/greetingDetails">
+         </activity>
+         <activity android:name=".ProviderConfigureActivity"
+                  android:label="@string/providerConfigureName">
+         </activity>
+         <activity android:name=".AddProviderToGreetingActivity"
+                  android:label="@string/providerConfigureName">
+         </activity>
+	 	 <activity android:name=".PredefinedNewsConfigureActivity"
+                  android:label="@string/providerConfigureName">
+         </activity>
+         <activity android:name=".PlayActivity" android:theme="@android:style/Theme.Dialog" 
+                  android:label="@string/Play"
+                  android:screenOrientation="portrait">
+         </activity>
+         <activity android:name=".ProviderActionsActivity"          
+                  android:label="@string/Actions">                  
+         </activity>
+         <activity android:name=".GreetingNameActivity"  android:theme="@android:style/Theme.Dialog"        
+                  android:label="@string/name">                  
+         </activity>
+         <activity android:name=".DailyHoroscopeConfigureActivity"          
+                  android:label="@string/dailyHoroscope">                  
+         </activity>
+         <activity android:name=".NewsConfigureActivity"          
+                  android:label="@string/dailyHoroscope">                  
+         </activity>
+         <activity android:name=".WeatherConfigureActivity"          
+                  android:label="@string/dailyHoroscope">                  
+         </activity>
+         <activity android:name=".AboutActivity"     android:theme="@android:style/Theme.Dialog"            
+                  android:label="@string/aboutHeader">                  
+         </activity>  
+         <activity android:name=".SpeakHelpActivity"     android:theme="@android:style/Theme.Dialog"            
+                  android:label="@string/aboutSpeakRecognition">                  
+         </activity>       
+    </application>
+    <uses-sdk android:minSdkVersion="5" />
+
+</manifest> 

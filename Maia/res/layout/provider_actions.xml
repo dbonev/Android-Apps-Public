@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+<ScrollView 
+ 	android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:layout_weight="100"    
+    android:id="@+id/scroll"
+ >   
+ 
+ <LinearLayout 
+ 	android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/workPanel"
+ >
+ <TextView
+ 	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:textSize="25sp"	
+	android:id="@+id/providerName"/>
+ <Button 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/configure"
+	android:id="@+id/configureButton"
+	android:drawableLeft="@drawable/ic_menu_settings"/>
+	
+ <Button 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/up"
+	android:id="@+id/upButton"
+	android:drawableLeft="@drawable/ic_menu_arrow"/>
+
+ <Button 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/down"
+	android:id="@+id/downButton"
+	android:drawableLeft="@drawable/ic_menu_arrow_down"/>
+	
+ <Button 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/remove"
+	android:id="@+id/removeButton"
+	android:drawableLeft="@drawable/ic_menu_close_32"/>
+
+ <Button 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/sayIt"
+	android:background="@drawable/sayit_bg_x"	
+	android:id="@+id/playButton"/>	
+	
+	
+ <Button 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/ok"
+	android:id="@+id/okButton"/>
+	
+
+			
+ </LinearLayout>
+ </ScrollView>    
+</LinearLayout>

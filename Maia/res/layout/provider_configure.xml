@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:orientation="vertical"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    >
+		    
+		<TextView 
+		 	android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:textSize="25sp"
+		    android:id="@+id/nameText"/>
+		    
+		<ScrollView 
+		 	android:layout_width="fill_parent"
+		    android:layout_height="fill_parent" 
+		    android:fillViewport="true"
+		    android:id="@+id/scroll"
+		 >   
+		 <LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="vertical">
+		 
+		 <TextView 
+		 	android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:id="@+id/extra1Label"/>
+		   
+		 <EditText
+		 	android:layout_width="fill_parent"
+		 	android:layout_height="wrap_content"
+		 	android:id="@+id/extra1Text"/>
+		 	
+		  <TextView 
+		 	android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:id="@+id/extra2Label"/>
+		   
+		 <EditText
+		 	android:layout_width="fill_parent"
+		 	android:layout_height="wrap_content"
+		 	android:id="@+id/extra2Text"/>
+		 	
+		<TextView 
+		 	android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:id="@+id/extra3Label"/>
+		   
+		 <EditText
+		 	android:layout_width="fill_parent"
+		 	android:layout_height="wrap_content"
+		 	android:id="@+id/extra3Text"/>
+		 	
+		<TableLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+		<TableRow>
+			<Button
+				android:text="@string/ok"
+				android:id="@+id/okButton">
+		    </Button>
+		    <Button
+				android:text="@string/cancel"
+				android:id="@+id/cancelButton">
+		    </Button>
+				
+</TableRow>		
+</TableLayout> 	 
+</LinearLayout>
+</ScrollView>    
+</LinearLayout>

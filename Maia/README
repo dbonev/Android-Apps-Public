@@ -1,0 +1,27 @@
+#################################################################
+# 								#
+# Maia is a simple app that can speak preconfigured briefings 	#
+# about the weather, time, news etc.				#
+#								#
+#					copyright Dimitar Bonev	#
+#################################################################
+
+Please note that Maia was never intended to be Siri or some other 
+form of 'intelligent' (ha-ha) assistant. 
+
+Actually Maia was in the Android market before Siri for iPhone 4S
+was even announced by Apple.
+
+The idea is that you configure some sequence of stories and then
+Maia can play them in the order you've defined.
+
+Example stories would be:
+
+~Salutation ('Hello, Sir');
+~The news from CNN;
+~Your horoscope;
+~News from Techmeme;
+~A joke;
+
+Maia's URL in the market is: 
+https://market.android.com/details?id=com.bubblelake.maia

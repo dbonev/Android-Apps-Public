@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/aluminum"
+    >
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    
+<ImageButton
+	android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft = "true"
+    android:id="@+id/speakButton"
+    android:background="@drawable/speak_small"
+    android:layout_marginLeft="5sp"
+    android:layout_marginTop="5sp"
+    /> 
+     
+<ImageButton
+	android:layout_width="wrap_content"
+    android:layout_height="wrap_content"        
+    android:layout_toRightOf="@id/speakButton"
+    android:id="@+id/speakAboutButton"
+    android:background="@drawable/speak_help_small"
+    android:layout_marginLeft="10sp"
+    android:layout_marginTop="5sp"
+    />  
+
+</RelativeLayout>
+    
+<ScrollView 
+ 	android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:layout_weight="100"    
+    android:id="@+id/scroll"
+ >   
+ 
+ <LinearLayout 
+ 	android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/workPanel"
+ >
+ </LinearLayout>
+ </ScrollView>    
+</LinearLayout>
